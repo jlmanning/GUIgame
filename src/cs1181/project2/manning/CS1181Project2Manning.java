@@ -158,6 +158,9 @@ public class CS1181Project2Manning extends Application {
             }
 
         });
+        
+        // this action event executes incorrectly, providing the same amount of
+        // letters as the user has made moves
         char[] hintchars = word.toCharArray();
         Button hint = new Button();
         hint.setText("Hint");
